@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkin
 go 1.17
 
 require (
-	github.com/jaegertracing/jaeger v1.32.0
+	github.com/jaegertracing/jaeger v1.34.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.49.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.49.0
 	github.com/openzipkin/zipkin-go v0.4.0
@@ -44,9 +44,9 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/net v0.0.0-20220412020605-290c469a71a5 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/grpc v1.45.0 // indirect
+	google.golang.org/grpc v1.46.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
